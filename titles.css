@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    transition: opacity 0.5s ease;
+}
+
+header {
+    color: 0000;
+    text-align: left;
+    background-image: url(IMG/minhafoto.png);
+    border-radius: 30px;
+    background-size: cover;
+    padding: 130px;
+}
+
+nav ul {
+    color: black;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    color: black ;
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: inline;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gallery article {
+    text-align: center;
+}
+
+
+
+.title {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #d8e300;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
